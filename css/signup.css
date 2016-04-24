@@ -1,0 +1,17 @@
+.signUpBody{
+    background-color: #F0EFF0;
+}
+.singupContiner{
+    padding-top: 5px !important;
+    padding-bottom: 0px !important;
+}
+.avatar{
+    border-radius: 20cm;   
+}
+.signUpFooter{
+    border-top: 1px solid #DDD;
+}
+.control-label{
+    text-align: left !important;
+    
+}

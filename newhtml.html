@@ -1,0 +1,9 @@
+    <?php Pjax::begin(); ?>
+    <?= Html::beginForm([''], 'post', ['data-pjax' => '']); ?>
+    <?= Html::dropDownList('shop_id', '', \app\modules\Shop\models\Shop::Dropdown(), ['class' => 'form-control', 'id' => 'shopID']) ?>
+    <?= Html::dropDownList('category_id', '', [], ['class' => 'form-control', 'id' => 'categoryID']) ?>
+    <?= Html::dropDownList('item_id', '', [], ['class' => 'form-control', 'id' => 'item']) ?>
+    <?= Html::submitButton('Load', ['class' => 'btn btn-sm btn-primary', 'name' => 'hash-button']) ?>
+    <?= Html::endForm() ?>
+    <h3><?php print_r($time) ?></h3>
+    <?php Pjax::end(); ?>
